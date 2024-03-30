@@ -1,0 +1,58 @@
+
+.card {
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+.container {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.custom-container {
+max-width: 800px; 
+margin: 0 auto; 
+}
+  
+.counter {
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    z-index: 1;
+}
+
+.logo {
+    margin: 0 auto; 
+}
+
+.form-control {
+    outline: none !important;
+}
+
+/* .input-group {
+    outline: none !important;
+} */
+ 
+.invited-btn {
+    background-color: black;
+    border-radius: 30px;
+    color: white !important;
+}
+
+.home-title {
+    margin-top: -40px;
+    font-size: 120px;
+    font-weight: 900;
+    background: -webkit-linear-gradient(43deg, #4158d0, #c850c0 30%, #ff9d70 79%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 3;
+}
+
+.input-group {
+    width: 40%;
+}
+
+
